@@ -1,0 +1,69 @@
+@import url("https://capture-ui.netlify.app/css/components.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --primary-color: #524d4d;
+  --bg-color: rgb(167, 153, 165);
+  --border: rgba(63, 63, 70, 0.4);
+
+  --text-color: rgb(0, 0, 0);
+  --subtitle: rgb(161 161 170);
+
+  --bgHeader: rgb(39, 39, 42);
+  --blue: rgb(93, 188, 252);
+
+  --icon-hover: #d4d4d8;
+
+  --container-padding: 4.8rem;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  color: var(--text-color);
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+section.main-section {
+  flex-grow: 1;
+  margin-top: 1rem;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-primary:hover {
+  text-decoration: underline;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: var(--bg-color);
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+}
+
+button:active {
+  transform: translateY(1px);
+}
