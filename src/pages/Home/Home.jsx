@@ -15,23 +15,34 @@ const Home = () => {
       <Navbar />
 
       <section className="main-section">
-        <div className="hero">
-          <div className="hero-img">
-            <img className="resp-img" src="/assets/hero-img.jpg" alt="Image" />
-          </div>
+   
 
-          <div className="hero-content">
-            <div>
-              Everything's better with a bit of fragrance
-              <p className="sub-title">
-                Choose from our wide variety of fragrances
-              </p>
-              <Link to="/products" className="hero-action">
-                <button className="btn btn-primary">Shop Now</button>
-              </Link>
-            </div>
-          </div>
-        </div>
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://img.fragrancex.com/images/l/29/d/0/homeimage_desktop@2x.webp?v=J6IFATE364FEYZ1" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/177756-0.webp" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn2.parfumdreams.de/image/cms/177853-0.webp" class="d-block w-100" alt="..."/>
+    </div>
+
+
+
+
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
         <div className="services-category">
           <div className="service">
