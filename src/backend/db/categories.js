@@ -7,21 +7,18 @@ import { v4 as uuid } from "uuid";
 
 export const categories = [
   {
-    _id: uuid(),
+    _id: "unique-id-1",
     categoryName: "men",
-    image:
-      "https://rukminim1.flixcart.com/image/416/416/k9u8zgw0/perfume/u/f/p/50-edge-perfume-eau-de-parfum-wild-stone-men-original-imafrjh8pzpqzyhg.jpeg",
+    image: "https://cdn2.parfumdreams.de/image/product/67537-0-0-0.webp?box=422"
   },
   {
-    _id: uuid(),
+    _id: "unique-id-2",
     categoryName: "women",
-    image:
-      "https://rukminim1.flixcart.com/image/416/416/kk5rgy80/perfume/g/e/4/scent-beautiful-secret-eau-de-parfum-fogg-women-original-imafzk92ugzy5drh.jpeg",
+    image: "https://cdn2.parfumdreams.de/image/product/115115-181640-0-0.webp?box=422"
   },
   {
-    _id: uuid(),
-    categoryName: "men & women",
-    image:
-      "https://rukminim1.flixcart.com/image/416/416/kzegk280/perfume/b/p/r/60-fire-long-lasting-perfume-eau-de-parfum-the-man-company-men-original-imagbffzzsvhs4hu.jpeg",
-  },
+    _id: "unique-id-3",
+   categoryName: "men & women",
+   image: "https://cdn2.parfumdreams.de/image/product/122660-206282-7-0.webp?box=528"
+  }
 ];
