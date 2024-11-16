@@ -1,5 +1,16 @@
 /* Hero Section */
 
+.carousel .carousel-item img {
+  width: 80%;
+  height: 300px;
+margin: 20px auto;
+}
+
+
+
+
+
+
 .hero {
   margin-top: -3rem;
   position: relative;
@@ -61,7 +72,7 @@
 
 .service .icon {
   color: var(--primary-color);
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 .service .sub-heading {
@@ -77,32 +88,33 @@
 
 .main-category .heading-2,
 .featured-category .heading-2 {
-  font-size: var(--heading-2);
+  font-size: 32px;
+  color: #834b67;
   font-weight: bold;
   text-align: center;
   margin-bottom: 2rem;
+
 }
 
 .category-grid,
 .featured-grid {
-  gap: 1rem;
-  background-color: inherit;
+  gap: 12rem;
+  display: flex;
+  flex-direction: row;
+  margin: 0 80px auto;
+  padding-bottom: 160px;
 }
 
-.featured-grid > * {
-  width: 100%;
-}
 
 /* Main Category */
 
 .category-container {
   position: relative;
-  border: 1px solid var(--primary-color);
-  border-radius: var(--border-radius);
+
 }
 
 .category-container .resp-img {
-  opacity: 0.2;
+  opacity: 1;
   height: 18rem;
   width: 100%;
   object-fit: cover;
@@ -112,14 +124,16 @@
 
 .overlay-container {
   position: absolute;
-  top: 50%;
+  top: 100%;
   left: 50%;
-  width: 100%;
+  padding: 13px;
+  margin: 24px 1px;
   transform: translate(-50%, -50%);
-  background-color: var(--primary-color);
-  color: var(--white);
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #95999cdc;
+
 }
 
 /* MEDIA QUERIES */
